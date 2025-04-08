@@ -1,4 +1,4 @@
-#第1題    
+##第1題    
 import numpy as np
 ''' 定義被積函數'''  
 def f(x):    
@@ -46,7 +46,9 @@ print(f"c. Composite Midpoint Rule: {midpoint_result:.6f}")
 from scipy.integrate import quad        
 true_value, _ = quad(f, a, b)    
 print(f"\nTrue value (for reference): {true_value:.6f}")    
-#第2題    
+
+##第2題    
+
 import numpy as np  
 from scipy.special import roots_legendre  
 from scipy.integrate import quad  
