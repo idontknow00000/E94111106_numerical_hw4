@@ -1,6 +1,6 @@
 ##第1題    
-    import numpy as np
-    ''' 定義被積函數'''  
+    import numpy as np    
+    ''' 定義被積函數'''      
     def f(x):    
         return np.exp(x) * np.sin(4 * x)    
     
